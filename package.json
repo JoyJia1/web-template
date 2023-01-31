@@ -1,0 +1,36 @@
+{
+  "name": "web-template",
+  "version": "1.0.2",
+  "scripts": {
+    "dev": "vite --host --mode development",
+    "build:pre": "vite build --mode pretest",
+    "build": "vue-tsc --noEmit && vite build --mode production"
+  },
+  "dependencies": {
+    "@vicons/antd": "^0.11.0",
+    "@vicons/fluent": "^0.11.0",
+    "@vicons/ionicons5": "^0.11.0",
+    "@vicons/material": "^0.11.0",
+    "@vicons/tabler": "^0.11.0",
+    "axios": "^0.24.0",
+    "copy-text-to-clipboard": "^3.0.1",
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21",
+    "naive-ui": "^2.26.4",
+    "nanoid": "^3.1.30",
+    "pinia": "^2.0.6",
+    "qs": "^6.10.3",
+    "vfonts": "^0.1.0",
+    "vue": "^3.2.37",
+    "vue-request": "^1.2.4",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "type-fest": "^2.12.0",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}

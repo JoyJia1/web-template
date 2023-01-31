@@ -1,0 +1,15 @@
+@import "vfonts/Lato.css";
+@import "vfonts/FiraCode.css";
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+html,body {
+  background: #fff;
+}
+
+.wrapper {
+  padding: 10px 10px 60px;
+}
